@@ -34,27 +34,27 @@ $ npm install -g sfdx-example-plugin
 # Usage
 
 ```sh-session
-$ oclif-example COMMAND
+$ sfdx-example-plugin COMMAND
 running command...
-$ oclif-example (-v|--version|version)
-sfdx-example-plugin/0.0.0 (darwin-x64) node-v9.5.0
-$ oclif-example --help [COMMAND]
+$ sfdx-example-plugin (-v|--version|version)
+sfdx-example-plugin/0.0.1 (darwin-x64) node-v9.5.0
+$ sfdx-example-plugin --help [COMMAND]
 USAGE
-  $ oclif-example COMMAND
+  $ sfdx-example-plugin COMMAND
 ...
 ```
 <!-- usagestop -->
 <!-- commands -->
 # Commands
 
-* [oclif-example hello [FILE]](#hello-file)
-## hello [FILE]
+* [sfdx-example-plugin hello:foo:bar [FILE]](#hello-foo-bar-file)
+## hello:foo:bar [FILE]
 
 describe the command here
 
 ```
 USAGE
-  $ oclif-example hello [FILE]
+  $ sfdx-example-plugin hello:foo:bar [FILE]
 
 OPTIONS
   -f, --force
@@ -68,5 +68,5 @@ EXAMPLES
   hello myname from .src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/jdxcode/sfdx-example-plugin/blob/v0.0.0/src/commands/hello.ts)_
+_See code: [src/commands/hello/foo/bar.ts](https://github.com/jdxcode/sfdx-example-plugin/blob/v0.0.1/src/commands/hello/foo/bar.ts)_
 <!-- commandsstop -->

@@ -1,6 +1,6 @@
 {
   "name": "sfdx-example-plugin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/jdxcode/sfdx-example-plugin/issues",
   "dependencies": {
